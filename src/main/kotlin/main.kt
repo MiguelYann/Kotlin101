@@ -12,4 +12,12 @@ fun main(args: Array<String>) {
     boy.displayName(::showName)
 
 
+    val car = Car()
+}
+
+class Car {
+
+    //Immutability
+    val Date = "12/12/99"
+    val Brand = "Toyota"
 }
