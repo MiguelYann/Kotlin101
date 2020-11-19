@@ -12,11 +12,15 @@ fun main(args: Array<String>) {
 
     val carOne = Car()
     carOne.Wheels = 4
-    val carTwo = Car()
-    carTwo.Wheels = 4
+
+    // Mark as nullable
+    val carTwo: Car? = null
+
+    //Safe operator
+    carTwo?.Wheels = null
 
     //If as an Expression
-    val message = if (carOne.Wheels == carTwo.Wheels) {
+    val message = if (carOne.Wheels == carTwo?.Wheels) {
         "We have 2 car"
     } else {
         "Not cars"
@@ -29,5 +33,5 @@ class Car {
     //Immutability
     val Date = "12/12/99"
     val Brand = "Toyota"
-    var Wheels = 0
+    var Wheels: Int? = 0
 }
