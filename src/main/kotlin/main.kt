@@ -1,8 +1,16 @@
 import fr.learning.Person
 
 fun main(args: Array<String>) {
-    val boy = Person("Miguel")
+    val boy = Person("Miguel", "3")
+    val girl = Person("Miguel", "2")
+    val chief = Person("Miguel", "1")
+    val unknown = Person("Miguel", "4")
     boy.walk()
+
+    boy.determinePosition()
+    girl.determinePosition()
+    chief.determinePosition()
+    unknown.determinePosition()
 
     fun showName(value: String) {
         println(value)
@@ -26,6 +34,8 @@ fun main(args: Array<String>) {
         "Not cars"
     }
     println(message)
+
+
 
 }
 
