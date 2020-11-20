@@ -35,7 +35,13 @@ fun main(args: Array<String>) {
     }
     println(message)
 
-
+    //Try statement cool
+    val value = try {
+        Integer.parseInt(message);
+    } catch (exception: NumberFormatException) {
+        0
+    }
+    print(value)
 
 }
 
