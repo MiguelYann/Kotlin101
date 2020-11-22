@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
     print(text.makePluralOf())
 }
 
+//Extend functions
 fun String.makePluralOf(): String {
     return "${this}s";
 }
