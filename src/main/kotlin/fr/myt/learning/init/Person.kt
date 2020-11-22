@@ -1,4 +1,4 @@
-package fr.learning
+package fr.myt.learning.init
 
 class Person(var Name: String, var Position: String) {
 
@@ -11,8 +11,8 @@ class Person(var Name: String, var Position: String) {
     }
 
     //When Statement 😍
-    fun determinePosition() {
-        when(Position) {
+    fun determinePosition(position: String) {
+        when(position) {
             "1" -> println("You are Chief")
             "2" -> println("You are Teacher")
             "3" -> println("You are Student")

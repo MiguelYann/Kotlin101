@@ -1,4 +1,4 @@
-import fr.learning.Person
+import fr.myt.learning.init.Person
 import kotlin.collections.HashMap
 
 fun main(args: Array<String>) {

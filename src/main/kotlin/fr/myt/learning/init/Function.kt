@@ -1,4 +1,4 @@
-package fr.learning
+package fr.myt.learning.init
 
 fun main(args: Array<String>) {
     sayHelloTo("Miguel")
@@ -17,4 +17,4 @@ fun doAnything() {
 
 // Function as an expression,
 
-fun minimum(a: Int, b: Int): Int = if (a > b) b else a
+fun minimum(firstValue: Int, secondValue: Int): Int = if (firstValue > secondValue) secondValue else firstValue
