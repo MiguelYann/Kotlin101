@@ -11,7 +11,7 @@ class Person(var Name: String, var Position: String) {
     }
 
     //When Statement 😍
-    fun determinePosition(position: String) {
+    fun determinePosition(position: String ="") {
         when(position) {
             "1" -> println("You are Chief")
             "2" -> println("You are Teacher")
