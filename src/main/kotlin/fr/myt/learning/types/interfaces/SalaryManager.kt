@@ -1,4 +1,4 @@
-package fr.myt.learning.types
+package fr.myt.learning.types.interfaces
 
 interface SalaryGenerator {
     //Simple abstract method
