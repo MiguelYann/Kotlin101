@@ -6,9 +6,7 @@ fun main(args: Array<String>) {
 }
 
 //simple declaration
-fun sayHelloTo(name: String): String {
-    return "Hello $name From amazing function"
-}
+fun sayHelloTo(name: String) =  "Hello $name From amazing function"
 
 //If function returns nothing, then hit nothing
 fun doAnything() {
